@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    
+}
+body {
+    background: lightblue;
+}
+header {
+    text-align: center;
+    background: grey;
+    color: black;
+    padding-top: 20px;
+}
+
+.search-card {
+    height: 80vh;
+    width: 30%;
+    border: 5px solid black;
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+
+.results-card {
+    height: 30vh;
+    width: 60%;
+    border: 5px solid black;
+    float: right;
+    margin-right: 15px;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+h3 {
+    padding: 10px;
+}
+
+.five-day-forecast {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+
+
+}
