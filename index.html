@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./style.css" />   
+    
     <title>Weather Dashboard</title>
 </head>
 
@@ -21,53 +22,50 @@
                 <input type="text" id="cityinput">
                 <button type="submit" id="searchbtn">find forecast</button>
             </div>
-            <ul id="history">
-
-            </ul>
+            <ul id="history"></ul>
+            
             
         </section>
         <section class="results-card">
+            <h1 id="city-name"></h1>
             <h2>Current Weather: <span id="current"></span> </h2>
-            <h3>temp: <span id="tempH"></span></h3>
-            <h3>wind:<span id="tempL"></span></h3>
+            <h3>High temperature: <span id="tempH"></span></h3>
+            <h3>Low temperature:<span id="tempL"></span></h3>
             <h3>humidity:<span id="humid"></span></h3>
         </section>
         <section class="five-day-forecast">
-            <div id="day-1">
-                <h3>date</h3>
-                <h4>Temp:</h4>
-                <h4>Wind:</h4>
-                <h4>Humidity</h4>
-            </div>
+            
             <div id="day-2">
-                <h3>date</h3>
-                <h4>Temp:</h4>
-                <h4>Wind:</h4>
-                <h4>Humidity</h4>
+                <h3>date:<span id="tempF1"></span></h3>
+                <h4>High:<span id="tempF4M"></span></h4>
+                <h4>Low:<span id="tempF4L"></span></h4>
+                <h4>Humidity: <span id="HumidityF3"></span></h4>
             </div>
             <div id="day-3">
-                <h3>date</h3>
-                <h4>Temp:</h4>
-                <h4>Wind:</h4>
-                <h4>Humidity</h4>
+                <h3>date:<span id="tempF1"></span></h3>
+                <h4>High:<span id="tempF4M"></span></h4>
+                <h4>Low:<span id="tempF4L"></span></h4>
+                <h4>Humidity: <span id="HumidityF3"></span></h4>
             </div>
             <div id="day-4">
-                <h3>date</h3>
-                <h4>Temp:</h4>
-                <h4>Wind:</h4>
-                <h4>Humidity</h4>
+                <h3>date:<span id="tempF1"></span></h3>
+                <h4>High:<span id="tempF4M"></span></h4>
+                <h4>Low:<span id="tempF4L"></span></h4>
+                <h4>Humidity: <span id="HumidityF3"></span></h4>
             </div>
             <div id="day-5">
-                <h3>date</h3>
-                <h4>Temp:</h4>
-                <h4>Wind:</h4>
-                <h4>Humidity</h4>
+                <h3>date:<span id="tempF1"></span></h3>
+                <h4>High:<span id="tempF4M"></span></h4>
+                <h4>Low:<span id="tempF4L"></span></h4>
+                <h4>Humidity: <span id="HumidityF3"></span></h4>
             </div>
+            
         </section>
     </main>
-
+    
+    
     <script>src="https://code.jquery.com/jquery-3.5.1.min.js"</script> 
-    <script src="./assets/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
