@@ -1,6 +1,6 @@
 # Weather-Dashboard README:
 
-<img width="1426" alt="Screenshot 2023-03-12 at 3 32 53 PM" src="https://user-images.githubusercontent.com/116329927/225582639-3ef64d23-7106-4691-ad7f-876495a4e215.png">
+![Screenshot 2023-03-16 at 3 02 20 AM](https://user-images.githubusercontent.com/116329927/225583172-b806b388-e44c-4fb0-96e9-ab8262b9d9e7.png)
 
 
 
