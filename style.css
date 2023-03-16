@@ -8,12 +8,12 @@ body {
 header {
     text-align: center;
     background: grey;
-    color: black;
+    /* color: black; */
     padding-top: 20px;
 }
 
 .search-card {
-    height: 80vh;
+    height: 20vh;
     width: 30%;
     border: 5px solid black;
     float: left;
@@ -25,7 +25,7 @@ header {
 }
 
 .results-card {
-    height: 30vh;
+    height: 20vh;
     width: 60%;
     border: 5px solid black;
     float: right;
@@ -39,9 +39,32 @@ h3 {
 }
 
 .five-day-forecast {
-    display: flex;
+   display: inline;
     justify-content: center;
     padding-top: 20%;
+    border: 2px solid black;
+
+}
+.card-forecast {
+    height: 20px;
 
 
 }
+.row {
+    width: 100%;
+    margin: 20vw auto;
+    justify-content: space-around;
+  }
+  .block {
+    width: 100px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    border: 2px solid black;
+    justify-content: space-between;
+  }
+  .content
+.forecast-container{
+    border-bottom: 1px solid black;
+}
+/* Seattle */
