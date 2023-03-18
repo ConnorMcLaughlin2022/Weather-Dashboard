@@ -23,5 +23,5 @@ This application is a weather dahsboard tht uses the open weather API to call on
 
 ## URL & Site
 
-Url: https://github.com/ConnorMcLaughlin2022/Social-network-api.git
+Url: https://github.com/ConnorMcLaughlin2022/Weather-Dashboard.git
 site: https://connormclaughlin2022.github.io/Weather-Dashboard/
