@@ -20,7 +20,7 @@ function searchWeather(event) {
   $('#city-name').text(textToSave)
   $('#history').prepend(cityName)
   $('#cityinput').val('');
-  fetch("http://api.openweathermap.org/data/2.5/weather?q=" + textToSave + "&appid=0e58904f442705bd2a5dbc3d0662d360").then(
+  fetch("https://api.openweathermap.org/data/2.5/weather?q=" + textToSave + "&appid=0e58904f442705bd2a5dbc3d0662d360").then(
     function (response) {
       return response.json()
 
